@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 50px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  padding: 6px;
+  border-radius: 5px;
+  height: 45px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: rgb(117, 41, 41);
+  color: white;
+  cursor: pointer;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 200px;
+}
